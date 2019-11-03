@@ -12,6 +12,9 @@ class HelloWorld
      System.out.println("Hello, World");     		
 
      System.out.println("Hello, World");     
+if x==y
+{
+a=b;
  	
     } 
 }
