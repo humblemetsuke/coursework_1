@@ -10,8 +10,8 @@ class HelloWorld
   
 int i;
 for (i=0; i<1001; i++);
-System.out.println("We are now at the end of your loop printing.
-The loop has now printed 1000 times for testing purposes!");
+System.out.println("We are now at the end of your loop printing. The loop has now printed 1000 times for testing purposes!");
+
 
 
 
