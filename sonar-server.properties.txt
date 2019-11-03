@@ -1,2 +1,4 @@
 	sonar.projectKey=java-jenkins-sonar
 sonar.sources=.
+
+\Documents\GitHub\coursework_1\sonar-server.properties
