@@ -6,7 +6,38 @@ for (int i = 0; i < 21; i++) {
   System.out.println(i);
 }
 //Prints Hello World 20 times. 
-
+for (int i = 0; i < 21; i++) {
+  System.out.println(i);
+}
+//Prints Hello World 20 times. 
+for (int i = 0; i < 21; i++) {
+  System.out.println(i);
+}
+//Prints Hello World 20 times. 
+for (int i = 0; i < 21; i++) {
+  System.out.println(i);
+}
+//Prints Hello World 20 times. 
+for (int i = 0; i < 21; i++) {
+  System.out.println(i);
+}
+//Prints Hello World 20 times. 
+for (int i = 0; i < 21; i++) {
+  System.out.println(i);
+}
+//Prints Hello World 20 times. 
+for (int i = 0; i < 21; i++) {
+  System.out.println(i);
+}
+//Prints Hello World 20 times. 
+for (int i = 0; i < 21; i++) {
+  System.out.println(i);
+}
+//Prints Hello World 20 times. 
+for (int i = 0; i < 21; i++) {
+  System.out.println(i);
+}
+//Prints Hello World 20 times. 
  
 
         
