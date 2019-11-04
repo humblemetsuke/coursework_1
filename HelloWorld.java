@@ -5,12 +5,12 @@ public class HelloWorld {
 for (int i = 0; i < 21; i++) {
   System.out.println(i);
 }
-//Prints Hello World 20 times. 
-for (int j = 0; i < 21; i++) {
+
+for (int j = 0; j < 21; i++) {
   System.out.println(j);
 }
-//Prints Hello World 20 times. 
-for (int k = 0; i < 21; i++) {
+
+for (int k = 0; k < 21; i++) {
   System.out.println(k);
 }
 
