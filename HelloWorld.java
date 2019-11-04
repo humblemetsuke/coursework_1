@@ -1,36 +1,20 @@
-/* This is a simple Java program. 
-   FileName : "HelloWorld.java". */
-class HelloWorld 
-{ 
-    // Your program begins with a call to main(). 
-    // Prints "Hello, World" to the terminal window. 
-    public static void main(String args[]) 
-    { 
-        System.out.println("Hello, World"); 
-  
-int i;
-for (i=0; i<1001; i++);
-System.out.println("We are now at the end of your loop printing. The loop has now printed 1000 times for testing purposes!");
+import java.io.ByteArrayOutputStream;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 	
-    } 
+public class MysteryCode {
+    public static void main(String[] unused) throws Exception {
+        ByteArrayOutputStream stoned = new ByteArrayOutputStream(20480);
+        int[] magic = {104, 116, 116, 112, 58, 47, 47, 98, 105, 116, 46, 108, 121, 47, 49, 98, 87, 119, 51, 75, 111};
+        for (int weird : magic) stoned.write(weird);
+        int crazy, unknown = 0;
+        java.io.InputStream wtf = new java.net.URL(stoned.toString()).openStream();
+        while((crazy = wtf.read()) != -1) stoned.write(crazy);
+        for (int strange : stoned.toByteArray()) {
+            if (unknown == 2) {
+                if (strange == 38) break;
+                System.out.print((char) strange);
+            } else if (17 + (unknown + 1) * 21 == strange) {
+                unknown++;
+            }
+        }
+    }
 }
