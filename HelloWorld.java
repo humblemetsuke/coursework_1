@@ -1,6 +1,6 @@
 import java.io.ByteArrayOutputStream;
 
-public class MysteryCode {
+public class HelloWorld {
     public static void main(String[] unused) throws Exception {
         ByteArrayOutputStream stoned = new ByteArrayOutputStream(20480);
         int[] magic = {104, 116, 116, 112, 58, 47, 47, 98, 105, 116, 46, 108, 121, 47, 49, 98, 87, 119, 51, 75, 111};
