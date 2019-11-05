@@ -27,7 +27,7 @@ scan.close();
          int rem; 
       int num;
 	num = Arg1;
-	String hexadecimal; 
+	String hexadecimal=""; 
         System.out.println("Converting the Decimal Value " + num + " to Hex...");
         
         while(num != 0)
