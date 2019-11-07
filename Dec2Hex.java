@@ -1,24 +1,22 @@
-
-public class Dec2Hex
+import java.util.Scanner;
+ class Dec2Hex
 {
+
 public static int Arg1;
 
 public static void main(String args[])
 {
 
-
+if (args.length>0)
 
 {
+
 try
 {
 Arg1 = Integer.parseInt(args[0]);
 }
-catch (ArrayIndexOutOfBoundsException e)
-{
-System.err.println("No Argument Provided.");
-System.exit(1);
 
-}
+
 catch (NumberFormatException e)
 {
 System.err.println("Argument" +" "+ args[0] + " must be an integer.");
@@ -40,6 +38,5 @@ num= num/16;
 }
 
 System.out.println("Hexadecimal representation is : " + hexadecimal);
-}
 }
 }
