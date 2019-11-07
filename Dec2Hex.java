@@ -7,7 +7,7 @@ public static void main(String args[])
 {
 
 
-if (args.length == 0)
+
 {
 try
 {
@@ -16,6 +16,7 @@ Arg1 = Integer.parseInt(args[0]);
 catch (ArrayIndexOutOfBoundsException e)
 {
 System.err.println("No Argument Provided.");
+System.exit(1);
 
 }
 catch (NumberFormatException e)
