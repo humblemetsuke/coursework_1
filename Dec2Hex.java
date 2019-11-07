@@ -16,7 +16,7 @@ Arg1 = Integer.parseInt(args[0]);
 catch (ArrayIndexOutOfBoundsException e)
 {
 System.err.println("No Argument Provided.");
-System.exit(1);
+
 }
 catch (NumberFormatException e)
 {
